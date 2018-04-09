@@ -1,2 +1,6 @@
 server:  
   port: 1111   # HTTP port
+  
+eureka
+  client
+    registerWithEureka: false  
