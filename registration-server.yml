@@ -3,4 +3,9 @@ server:
   
 eureka
   client
-    registerWithEureka: false  
+    registerWithEureka: false
+    fetchRegistry: false
+    
+spring
+  thymeleaf
+    enabled: false
